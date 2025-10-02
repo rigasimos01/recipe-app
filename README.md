@@ -31,3 +31,10 @@ export const environment = {
     appId: "YOUR_APP_ID"
   }
 };
+
+
+## Setup
+1. Clone this repository.  
+2. **Install dependencies:**  
+   ```bash
+   npm install
