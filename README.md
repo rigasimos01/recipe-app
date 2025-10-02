@@ -32,6 +32,7 @@ export const environment = {
   }
 };
 
+```
 
 ## Setup
 1. Clone this repository.  
