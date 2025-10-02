@@ -1,41 +1,27 @@
-# Recipe App
+# FirstApp
 
-This is a simple recipe management application built with **Angular**.  
-It allows you to:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
-- Create and store recipes  
-- View and manage a recipe list  
-- Create and store a shopping list  
+## Development server
 
-## Features
-- **Authentication**: Users can sign up and log in using Firebase Authentication.  
-- **Data Storage**: Recipes and shopping list items are stored in Firebase Realtime Database.  
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Important Notes
-- This project uses **Firebase** for authentication and data storage.  
-- **Firebase configuration data is not included** in this repository for security reasons.  
-- To run the project correctly, you must add your own Firebase configuration data inside `src/environments/environment.ts` (and optionally `environment.prod.ts`).  
+## Code scaffolding
 
-Example structure for `environment.ts`:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-```ts
-export const environment = {
-  production: false,
-  firebase: {
-    apiKey: "YOUR_FIREBASE_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-  }
-};
+## Build
 
-```
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Setup
-1. Clone this repository.  
-2. **Install dependencies:**  
-   ```bash
-   npm install
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
